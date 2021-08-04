@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-unfetch'
+import GoogleMaps from '../components/GoogleMaps'
 
 const Home = ({ menus }) => {
 
@@ -19,7 +20,7 @@ const Home = ({ menus }) => {
         </ul>
       </nav>
       
-      
+      <h1>Denne hjemmeside tilhører Jalla-Jalla Frederikssundsvej 32</h1>
     </div>
       )
   
