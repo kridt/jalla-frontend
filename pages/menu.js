@@ -1,4 +1,5 @@
 import fetch from 'isomorphic-unfetch'
+import Link from 'react-router'
 
 const Menu = ({ menus }) => {
 
@@ -12,10 +13,10 @@ const Menu = ({ menus }) => {
     <div className="container">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/menu">Menu</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Member site</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/">About</Link></li>
+          <li><Link to="/">Member site</Link></li>
         </ul>
       </nav>
       <ol className="menuKort">
